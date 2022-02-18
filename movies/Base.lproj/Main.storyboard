@@ -77,7 +77,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="86s-yX-Vo8"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FiQ-OK-IyM" customClass="CosmosView" customModule="Cosmos">
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FiQ-OK-IyM" customClass="CosmosView" customModule="Cosmos">
                                 <rect key="frame" x="87" y="517" width="153" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -228,6 +228,9 @@
     <designables>
         <designable name="FiQ-OK-IyM">
             <size key="intrinsicContentSize" width="140" height="24"/>
+        </designable>
+        <designable name="XYu-ZU-Pva">
+            <size key="intrinsicContentSize" width="120" height="20"/>
         </designable>
     </designables>
 </document>

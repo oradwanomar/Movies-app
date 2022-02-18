@@ -186,7 +186,7 @@ class MovieTableViewController: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 170
+        return 171
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc=self.storyboard?.instantiateViewController(withIdentifier:"view") as! ViewController
